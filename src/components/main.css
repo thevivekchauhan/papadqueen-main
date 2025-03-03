@@ -1,0 +1,12 @@
+.hover-effect:hover {
+  background-color: rgba(255, 255, 255, 0.9); /* Brighter white background */
+  color: black; /* Change text color to black */
+  font-weight: bold; /* Make text bold */
+  box-shadow: 0 8px 16px rgba(29, 177, 56, 0.5); /* Glowing white shadow */
+}
+  /* Optional: Add padding to the text for better hover effect */
+  .carousel-caption .hover-effect {
+    padding: 10px;
+  }
+  
+  

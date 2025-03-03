@@ -1,0 +1,35 @@
+/* Ensure all images inside the cards fill the card without stretching */
+.product-card img {
+    width: 100%;  /* Make the image span the full width of the container */
+    height: 200px; /* Fixed height for the image */
+    object-fit: cover;  /* Ensures image covers the entire space, cropping if necessary */
+    border-bottom: 1px solid #ddd;  /* Optional: Add a border below the image */
+  }
+  
+  
+  /* Hover effect for the product cards */
+  .product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Ensure all images inside the cards maintain the same size */
+  .product-card img {
+    max-height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Card body padding */
+  .product-card .card-body {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Button style */
+  .product-card .btn-dark {
+    margin-top: auto; /* Align button to the bottom */
+  }
+  
