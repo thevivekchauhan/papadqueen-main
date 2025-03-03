@@ -5,7 +5,7 @@ A Papad Queen Website made with React.js Framework.
 
 ## Demo
 
-Comming soon...
+https://papadqueen.netlify.app/
 
 ## Features
 
@@ -15,12 +15,6 @@ Comming soon...
 - Custom Orders
 - 100% Authentic
 - Eco-Friendly Packaging
-
-
-## Screenshots
-
-![App Screenshot](https://i.ibb.co/fQ293tm/image.png)
-
 
 
 ## Run Locally
